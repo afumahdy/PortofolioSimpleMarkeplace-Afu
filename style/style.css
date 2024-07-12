@@ -1,0 +1,234 @@
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Monsterrat', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    color: white;
+    font-weight: bold;
+    background-color: #E93B97;
+    text-align: center;
+    padding-top: 3.5rem;
+    padding-bottom: 3.5rem;
+    margin-top: -2rem;
+}
+
+h2 {
+    color: #E93B97;
+    margin-left: 3.5rem;
+    margin-bottom: -0.5rem;
+}
+h3, h4 {
+    color: #7F287F;
+}
+
+header.navbar-container {
+    width: 100%;
+    max-width: 1200px;
+    margin-inline: auto;
+    padding-block-start: 1rem;
+    padding-block-end: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 9999;
+}
+
+header.navbar-container .logo img {
+    height: 60px;
+}
+
+header.navbar-container .nav-list ul {
+    padding-left: 0;
+    display: flex;
+    justify-content: center;
+    gap: 2rem 1rem;
+}
+
+header.navbar-container .nav-list li {
+    list-style-type: none;
+}
+
+header.navbar-container .nav-list a{
+    padding: 0.5rem 1.5rem;
+    border-radius: 999px;
+    text-decoration: none;
+    font-size: 1.05rem;
+    font-weight: 700;
+    font-style: bold;
+    color: #E93B97;
+    transition: all 0.2s ease-in-out;
+}
+
+header.navbar-container .nav-list li:hover a {
+    background-color: #E93B97;
+    color: white;
+}
+
+.card {
+    box-shadow: 0 0 15px 2px #d4d4d4;
+    border-radius: 10px;
+    justify-items: center;
+    padding: 1.5rem;
+    margin: 1.5rem;
+}
+
+.jumbotron {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    margin-bottom: 2rem;
+}
+
+.jumbotron .banner-homepage {
+    object-fit: cover;
+    max-width: auto;
+    height: 600px;
+    margin-top: 0.2rem;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+main .content {
+    display: flex;
+    flex-flow: column nowrap;
+    align-content: space-between ;
+    padding: 1.5rem;
+}
+
+.logo-brand {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1rem;
+    height: auto;
+    width: 150px;
+
+}
+
+.article-container {
+    display: flex;
+    flex-direction: row;
+    margin-left: 2rem;
+}
+.vans-article {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: stretch;
+    padding-left: 1.5rem;
+    padding-bottom: 5rem;
+    margin-top: 5rem;
+}
+
+.converse-article {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: stretch;
+    padding-left: 1.5rem;
+    padding-bottom: 5rem;
+}
+
+.card img {
+    transition: all 0.2s ease-in-out;
+}
+
+.card img:hover {
+    cursor: pointer;
+    padding: 0.5rem;
+}
+
+.size {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+} 
+
+.size ul {
+    padding-left: 0;
+    display: flex;
+    justify-content: center;
+    gap: 2rem 1rem;
+    list-style-type: none;
+}
+
+.size ul li {
+    color: #7F287F;
+    padding: 0.2rem;
+    border-radius: 999px;
+    transition: all 0.2s ease-in-out;
+}
+
+.size li:hover {
+    cursor: pointer;
+    color: #E93B97;
+    border: 2px solid #E93B97;
+    font-weight: bold;
+}
+
+.price {
+    display: flex;
+    flex-direction: row;
+}
+
+.old-price {
+    padding-left: 1rem;
+    color: rgb(117, 117, 117);
+    text-decoration: 2px line-through ;
+}
+
+main aside {
+    position: fixed;
+    inset-block: 0;
+    inset-inline-end: 0;
+    padding-top: 10rem;
+}
+
+main aside .social-media {
+    width: 75px;
+    display: flex;
+}
+
+main aside .social-media ul {
+    width: 100px;
+    padding: 1.5rem 0.5rem;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    margin: auto;
+    background-color: hsla(328, 80%, 57%, 0.47);
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+main aside .social-media li {
+    list-style-type: none;
+}
+
+main aside .social-media li a {
+    transition: all 0.1s ease-in-out;
+}
+
+main aside .social-media li a img {
+    width: 30px;
+    transition: all 0.1s ease-in-out;
+}
+
+footer {
+    padding-top: 0.5rem;
+    background-color: #E93B97;
+    color: white;
+    text-align: center;
+    padding-bottom: 0.5rem;
+}
